@@ -5,7 +5,8 @@
     {
         // Preserve method chaining in jQuery:
         return this.each(function() {
-
+            
+            // Assign some basic settings:
             var text    = $(this).text().split(''),
                 degrees = 360 / text.length,
                 origin  = 0,
